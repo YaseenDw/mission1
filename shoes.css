@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'century gothic';
+    background-image: url(images/bg.jfif);
+    background-repeat: space;
+}
+.navbar{
+    font-size: 18px ;
+    background: linear-gradient(260deg, #181a1bbd 0%, #9f9da0 100%);
+    border:1px solid rgba(0, 0, 0, 0.79);
+    padding-bottom:10px ;
+}
+.main-nav{
+    list-style: none;
+    display: none;
+}
+.nav-links,
+.logo{
+    text-decoration: none;
+    color:rgb(4, 2, 2) ;
+}
+.main-nav li{
+   text-align: center;
+   margin:15px auto;  
+}
+.logo{
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar-toggle{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: #fff; 
+    font-size: 24px;
+}
+.active{
+    display: block;
+}
+
+@media(min-width: 768px)
+{
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+        
+    }
+    .main-nav{
+        display: flex;
+       
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li{
+        margin: 0;
+    }
+    .nav-links{
+        margin-left: 40px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .navbar-toggle{
+        display: none;
+    }
+    
+    .logo:hover
+    .nav-links:hover{
+        color:rgb(230, 213, 213);
+    }
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: rgb(246, 238, 238);
+    padding-right: 15px;
+}
+.huhu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+ width: 200px;
+    height: 100%;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    border-style: double;
+    border-color: black;
+    background-color: aqua;
+}
+.btn:hover{
+  box-shadow: inset 500px 0 0 0 #a505f5;
+}
+.haha{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a505f5;
+    border-style: solid;
+    border-color: black;
+}
+.hihi{
+    font-family: poppins;
+    justify-content: center;
+    display: center;
+    align-items: center;
+    color: black;
+    background-color: #f5f1f7;
+    border-color: rgb(9, 1, 1);
+    border-style: solid;
+    
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 350px;
+position: absolute;
+
+}

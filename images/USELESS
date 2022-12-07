@@ -1,0 +1,9 @@
+  <button type="submit">skicka iväg</button>
+
+  <label for="medelande">medelande</label>
+    <textarea rows="8" id="medelande" placeholder="skriv dit medelande här!"></textarea>
+
+
+
+<label for="email">email</label>
+<input type="skriv här" id="email" placeholder="skriv din email">
